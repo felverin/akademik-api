@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/matakuliah/3
+method: PUT
+body:
+  type: json
+  content: '{"nama":"Jaringan Komputer","kode":"IF103","dosen":"Dr. Rudi","image_url":""}'
+order: 8000

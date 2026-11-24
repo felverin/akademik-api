@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:3000/matakuliah/3
+method: DELETE
+order: 9000

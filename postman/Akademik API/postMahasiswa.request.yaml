@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:3000/mahasiswa
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"nama\": \"Fajar\",\r
+
+    \  \"nim\": \"2024006\"\r
+
+    }"
+order: 2000

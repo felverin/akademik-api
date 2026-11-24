@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/matakuliah
+method: POST
+body:
+  type: json
+  content: '{"nama":"Jaringan","kode":"IF103","dosen":"Dr. Rudi","image_url":"https://example.com/net.jpg"}'
+order: 6000

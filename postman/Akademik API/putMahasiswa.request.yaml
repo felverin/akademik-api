@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://localhost:3000/mahasiswa/1
+method: PUT
+body:
+  type: json
+  content: '{ "nama": "Andi Baru", "nim": "2024001" }'
+order: 3000
